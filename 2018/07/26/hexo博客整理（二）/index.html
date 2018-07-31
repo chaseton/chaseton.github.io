@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Chaseton的博客">
 <meta property="og:description" content="博客功能添加纪录主要增加以下功能  添加了不蒜子计算网站访问量的功能">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-26T12:42:32.000Z">
+<meta property="og:updated_time" content="2018-07-31T15:24:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo博客整理（二）">
 <meta name="twitter:description" content="博客功能添加纪录主要增加以下功能  添加了不蒜子计算网站访问量的功能">
@@ -373,6 +373,30 @@ gitment.render('gitment-ctn')
   
 
 <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#博客功能添加纪录"><span class="toc-number">1.</span> <span class="toc-text">博客功能添加纪录</span></a></li></ol>
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
              
         <!-- 目录内容结束 -->
 
