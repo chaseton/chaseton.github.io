@@ -6,19 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://github.com/chaseton">
-  <title>categories | Chaseton的博客</title>
+  <title>20180901ajax的相关学习 | Chaseton的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="my name is chaseton">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://github.com/chaseton/categories/index.html">
+  <meta name="description" content="ajax 做post请求时 form使用的serialize()其实是传递的是字符串，将form中的元素拼接上本想使用FormData的方式但是不能修改数据 combobox getValue获得不了值，研究下源码 json对象each方法">
+<meta name="keywords" content="学习,ajax">
+<meta property="og:type" content="article">
+<meta property="og:title" content="20180901ajax的相关学习">
+<meta property="og:url" content="http://github.com/chaseton/2018/09/01/20180901ajax的相关学习/index.html">
 <meta property="og:site_name" content="Chaseton的博客">
-<meta property="og:description" content="my name is chaseton">
+<meta property="og:description" content="ajax 做post请求时 form使用的serialize()其实是传递的是字符串，将form中的元素拼接上本想使用FormData的方式但是不能修改数据 combobox getValue获得不了值，研究下源码 json对象each方法">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-24T12:17:32.000Z">
+<meta property="og:updated_time" content="2018-09-01T04:09:26.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
-<meta name="twitter:description" content="my name is chaseton">
+<meta name="twitter:title" content="20180901ajax的相关学习">
+<meta name="twitter:description" content="ajax 做post请求时 form使用的serialize()其实是传递的是字符串，将form中的元素拼接上本想使用FormData的方式但是不能修改数据 combobox getValue获得不了值，研究下源码 json对象each方法">
   
     <link rel="alternative" href="/atom.xml" title="Chaseton的博客" type="application/atom+xml">
   
@@ -166,37 +167,100 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-20180901ajax的相关学习" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      categories
+      20180901ajax的相关学习
     </h1>
   
 
         
-        <a href="/categories/index.html" class="archive-article-date">
-  	<time datetime="2018-07-24T12:17:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-24</time>
+        <a href="/2018/09/01/20180901ajax的相关学习/" class="archive-article-date">
+  	<time datetime="2018-09-01T03:33:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-01</time>
 </a>
         
       </header>
     
     <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
              
         <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>ajax 做post请求时 form使用的serialize()<br>其实是传递的是字符串，将form中的元素拼接上<br>本想使用FormData的方式但是不能修改数据</p>
+<p>combobox getValue获得不了值，研究下源码</p>
+<p>json对象each方法</p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">ajax</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -247,7 +311,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://github.com/chaseton/categories/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://github.com/chaseton/2018/09/01/20180901ajax的相关学习/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -259,6 +323,25 @@
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2019/01/05/面试问到的问题/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          别人面试的相关内容
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/07/31/hexo博客整理（三）/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo博客整理（三）</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -305,8 +388,8 @@
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-//  id: "http://github.com/chaseton/categories/index.html",
-  id: 'Tue Jul 24 2018 20:17:32 GMT+0800',
+//  id: "http://github.com/chaseton/2018/09/01/20180901ajax的相关学习/",
+  id: 'Sat Sep 01 2018 11:33:20 GMT+0800',
   owner: 'chaseton',
   repo: 'chaseton.github.io',
   oauth: {
@@ -344,7 +427,7 @@ gitment.render('gitment-ctn')
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
