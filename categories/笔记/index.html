@@ -6,20 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://github.com/chaseton">
-  <title>准备学习的东西（二） | Chaseton的博客</title>
+  <title>Category: 笔记 | Chaseton的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="下半年准备学习的东西（二）性能调优专题性能优化如何理解 如何衡量性能标准 性能优化是什么 性能优化后的效果">
-<meta name="keywords" content="学习,java">
-<meta property="og:type" content="article">
-<meta property="og:title" content="准备学习的东西（二）">
-<meta property="og:url" content="http://github.com/chaseton/2018/07/31/准备学习的东西（二）/index.html">
+  <meta name="description" content="my name is chaseton">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chaseton的博客">
+<meta property="og:url" content="http://github.com/chaseton/categories/笔记/index.html">
 <meta property="og:site_name" content="Chaseton的博客">
-<meta property="og:description" content="下半年准备学习的东西（二）性能调优专题性能优化如何理解 如何衡量性能标准 性能优化是什么 性能优化后的效果">
+<meta property="og:description" content="my name is chaseton">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-31T15:49:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="准备学习的东西（二）">
-<meta name="twitter:description" content="下半年准备学习的东西（二）性能调优专题性能优化如何理解 如何衡量性能标准 性能优化是什么 性能优化后的效果">
+<meta name="twitter:title" content="Chaseton的博客">
+<meta name="twitter:description" content="my name is chaseton">
   
     <link rel="alternative" href="/atom.xml" title="Chaseton的博客" type="application/atom+xml">
   
@@ -167,734 +165,71 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-准备学习的东西（二）" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      准备学习的东西（二）
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2019/03/18/随想/" class="archive-article-date">
+  	<time datetime="2019-03-17T17:08:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-18</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2019/03/18/随想/">随想</a>
     </h1>
   
 
-        
-        <a href="/2018/07/31/准备学习的东西（二）/" class="archive-article-date">
-  	<time datetime="2018-07-31T15:28:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-31</time>
-</a>
-        
-      </header>
-    
-    <!-- 目录内容 -->
-        
-            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
-            <span class="btn-bg"></span>
-            <span class="btn-text">文章导航</span>
-            </p>
-            <div id="toc-article" class="toc-article">
-                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
-                <strong class="toc-title">文章目录</strong>
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#下半年准备学习的东西（二）"><span class="toc-number">1.</span> <span class="toc-text">下半年准备学习的东西（二）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#性能调优专题"><span class="toc-number">1.1.</span> <span class="toc-text">性能调优专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#性能优化如何理解"><span class="toc-number">1.1.1.</span> <span class="toc-text">性能优化如何理解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JVM调优"><span class="toc-number">1.1.2.</span> <span class="toc-text">JVM调优</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JAVA程序性能优化"><span class="toc-number">1.1.3.</span> <span class="toc-text">JAVA程序性能优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat"><span class="toc-number">1.1.4.</span> <span class="toc-text">Tomcat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mysql"><span class="toc-number">1.1.5.</span> <span class="toc-text">Mysql</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用框架源码分析"><span class="toc-number">1.2.</span> <span class="toc-text">常用框架源码分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring概述"><span class="toc-number">1.2.1.</span> <span class="toc-text">Spring概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring容器"><span class="toc-number">1.2.2.</span> <span class="toc-text">Spring容器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-AOP"><span class="toc-number">1.2.3.</span> <span class="toc-text">Spring AOP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-MVC"><span class="toc-number">1.2.4.</span> <span class="toc-text">Spring MVC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-5-新特性"><span class="toc-number">1.2.5.</span> <span class="toc-text">Spring 5 新特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mybatis"><span class="toc-number">1.2.6.</span> <span class="toc-text">Mybatis</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#互联网分布式架构专题"><span class="toc-number">1.3.</span> <span class="toc-text">互联网分布式架构专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#分布式架构思维"><span class="toc-number">1.3.1.</span> <span class="toc-text">分布式架构思维</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构开发基础"><span class="toc-number">1.3.2.</span> <span class="toc-text">架构开发基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构核心服务层技术"><span class="toc-number">1.3.3.</span> <span class="toc-text">架构核心服务层技术</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构关键基础设施"><span class="toc-number">1.3.4.</span> <span class="toc-text">架构关键基础设施</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式环境指挥官Zookeeper"><span class="toc-number">1.3.4.1.</span> <span class="toc-text">分布式环境指挥官Zookeeper</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式消息通讯异步与MQ"><span class="toc-number">1.3.4.2.</span> <span class="toc-text">分布式消息通讯异步与MQ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式缓存NoSql"><span class="toc-number">1.3.4.3.</span> <span class="toc-text">分布式缓存NoSql</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据存储"><span class="toc-number">1.3.4.4.</span> <span class="toc-text">数据存储</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#高并发分流技术Nginx"><span class="toc-number">1.3.4.5.</span> <span class="toc-text">高并发分流技术Nginx</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式文件存储fastdfs"><span class="toc-number">1.3.4.6.</span> <span class="toc-text">分布式文件存储fastdfs</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分布式常见场景解决方案"><span class="toc-number">1.3.5.</span> <span class="toc-text">分布式常见场景解决方案</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#团队协作开发专题"><span class="toc-number">1.4.</span> <span class="toc-text">团队协作开发专题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#微服务专题"><span class="toc-number">1.5.</span> <span class="toc-text">微服务专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBoot"><span class="toc-number">1.5.1.</span> <span class="toc-text">SpringBoot</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringCloud"><span class="toc-number">1.5.2.</span> <span class="toc-text">SpringCloud</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Docker虚拟化技术"><span class="toc-number">1.5.3.</span> <span class="toc-text">Docker虚拟化技术</span></a></li></ol></li></ol></li></ol>
-           </div>
-           <script type="text/javascript">
-            function showToc(){
-                var toc_article = document.getElementById("toc-article");
-                var show_toc_btn = document.getElementById("show-toc-btn");
-                toc_article.setAttribute("style","display:block");
-                show_toc_btn.setAttribute("style","display:none");
-                };
-            function showBtn(){
-                var toc_article = document.getElementById("toc-article");
-                var show_toc_btn = document.getElementById("show-toc-btn");
-                toc_article.setAttribute("style","display:none");
-                show_toc_btn.setAttribute("style","display:block");
-                };
-           </script>
-             
-        <!-- 目录内容结束 -->
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="下半年准备学习的东西（二）"><a href="#下半年准备学习的东西（二）" class="headerlink" title="下半年准备学习的东西（二）"></a>下半年准备学习的东西（二）</h1><h2 id="性能调优专题"><a href="#性能调优专题" class="headerlink" title="性能调优专题"></a>性能调优专题</h2><h3 id="性能优化如何理解"><a href="#性能优化如何理解" class="headerlink" title="性能优化如何理解"></a>性能优化如何理解</h3><ul>
-<li>如何衡量性能标准</li>
-<li>性能优化是什么</li>
-<li>性能优化后的效果</li>
-</ul>
-<a id="more"></a>
-<h3 id="JVM调优"><a href="#JVM调优" class="headerlink" title="JVM调优"></a>JVM调优</h3><ul>
-<li>JVM 内存管理机制<ul>
-<li>内存区域与内存溢出异常<ul>
-<li>运行时数据区域<ul>
-<li>程序计数器</li>
-<li>虚拟机栈</li>
-<li>本地方法栈</li>
-</ul>
-</li>
-<li>虚拟机对象</li>
-</ul>
-</li>
-<li>垃圾收集器与内存分配策略<ul>
-<li>垃圾回收算法与基础</li>
-<li>串行收集器</li>
-<li>并行收集器</li>
-<li>内存分配与回收策略</li>
-</ul>
-</li>
-<li>虚拟机性能监控与故障处理工具</li>
-</ul>
-</li>
-<li>JVM 执行子系统<ul>
-<li>类文件结构</li>
-<li>类加载机制</li>
-<li>字节码执行引擎</li>
-</ul>
-</li>
-<li>程序编译与代码优化<ul>
-<li>编译期优化</li>
-<li>运行期优化</li>
-</ul>
-</li>
-<li>实战调优案例与解决方法</li>
-</ul>
-<h3 id="JAVA程序性能优化"><a href="#JAVA程序性能优化" class="headerlink" title="JAVA程序性能优化"></a>JAVA程序性能优化</h3><ul>
-<li>优雅的创建对象</li>
-<li>注意对象的通用方法</li>
-<li>类的设计陷阱</li>
-<li>泛型需要注意的问题</li>
-<li>Java方法的那些坑</li>
-<li>程序设计的通用规则</li>
-</ul>
-<h3 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h3><ul>
-<li>Tomcat线程模型分析</li>
-<li>Tomcat生产环境配置</li>
-<li>Tomcat运行机制及框架</li>
-<li>Tomcat针对并发优化</li>
-<li>Tomcat针对内存优化</li>
-</ul>
-<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><ul>
-<li>探析BTree机制</li>
-<li>执行计划深入分析</li>
-<li>Mysql索引优化详解</li>
-<li>慢查询分析与SQL优化</li>
-</ul>
-<h2 id="常用框架源码分析"><a href="#常用框架源码分析" class="headerlink" title="常用框架源码分析"></a>常用框架源码分析</h2><h3 id="Spring概述"><a href="#Spring概述" class="headerlink" title="Spring概述"></a>Spring概述</h3><ul>
-<li>Spring Framework体系结构</li>
-<li>环境搭建</li>
-</ul>
-<h3 id="Spring容器"><a href="#Spring容器" class="headerlink" title="Spring容器"></a>Spring容器</h3><ul>
-<li>容器基本实现和组成</li>
-<li>装配Bean的方式<ul>
-<li>xml</li>
-<li>注解</li>
-<li>JavaConfig</li>
-</ul>
-</li>
-<li>BeanFactory源码分析</li>
-<li>BeanDefinition源码分析</li>
-<li>Bean生命周期</li>
-<li>依赖实现</li>
-</ul>
-<h3 id="Spring-AOP"><a href="#Spring-AOP" class="headerlink" title="Spring AOP"></a>Spring AOP</h3><ul>
-<li>面向切面的基础<ul>
-<li>AOP的基石动态代理</li>
-<li>Spring对AOP的支持<ul>
-<li>注解</li>
-<li>xml</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AOP源码分析<ul>
-<li>ProxyFactory源码解析</li>
-<li>AopProxy源码解析<ul>
-<li>JdkDynamicAopProxy</li>
-<li>Cglib2AopProxy</li>
-</ul>
-</li>
-<li>拦截与植入<ul>
-<li>advice源码分析</li>
-<li>Interceptor源码分析</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Transaction事物分析<ul>
-<li>事务的基础</li>
-<li>Spring对事务的支持</li>
-<li>源码分析</li>
-</ul>
-</li>
-<li>Spring Cache框架源码分析</li>
-</ul>
-<h3 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h3><ul>
-<li>Spring MVC的使用和流程解析</li>
-<li><p>Spring MVC组成</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">* DispatchServlet</span><br><span class="line">* HandlerMapping映射器</span><br><span class="line">* HandlerAdapter执行适配器</span><br><span class="line">* ViewResolver视图</span><br><span class="line">* View解析器</span><br><span class="line">* HandlerExceptionResolver异常捕捉器</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Spring MVC的高级技术</p>
-<ul>
-<li>使用multipart实现上传和下载</li>
-<li>异常的统一封装</li>
-<li>数据格式转化器</li>
-<li>拦截器的使用</li>
-</ul>
-</li>
-</ul>
-<h3 id="Spring-5-新特性"><a href="#Spring-5-新特性" class="headerlink" title="Spring 5 新特性"></a>Spring 5 新特性</h3><ul>
-<li>容器增强</li>
-<li>函数式编程</li>
-<li>webFlux模块介绍</li>
-<li>kotlin介绍</li>
-<li>Testing改进</li>
-<li>兼容性问题</li>
-</ul>
-<h3 id="Mybatis"><a href="#Mybatis" class="headerlink" title="Mybatis"></a>Mybatis</h3><ul>
-<li>Mybatis组成<ul>
-<li>动态sql</li>
-<li>Config配置</li>
-<li>Mapper配置</li>
-</ul>
-</li>
-<li>核心源码分析<ul>
-<li>Configuration源码解析</li>
-<li>SqlSessionFactory源码解析</li>
-<li>SqlSession源码解析</li>
-<li>SqlSessionManager源码解析</li>
-</ul>
-</li>
-<li>熟悉mybatis框架</li>
-</ul>
-<h2 id="互联网分布式架构专题"><a href="#互联网分布式架构专题" class="headerlink" title="互联网分布式架构专题"></a>互联网分布式架构专题</h2><h3 id="分布式架构思维"><a href="#分布式架构思维" class="headerlink" title="分布式架构思维"></a>分布式架构思维</h3><ul>
-<li>大型互联网架构演进过程</li>
-<li>架构师应该具备的分布式知识</li>
-<li>主流分布式架构设计详解</li>
-</ul>
-<h3 id="架构开发基础"><a href="#架构开发基础" class="headerlink" title="架构开发基础"></a>架构开发基础</h3><ul>
-<li><p>并发编程</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1. 线程基础</span><br><span class="line">2. 原子操作类和CAS</span><br><span class="line">3. Lock、Condition和显示锁</span><br><span class="line">4. AbstractQueuedSynchronizer分析</span><br><span class="line">5. 并发工具类和并发容器</span><br><span class="line">6. 线程池和Executor框架</span><br><span class="line">7. 实现原理和Java内存模型</span><br><span class="line">8. 线程安全</span><br><span class="line">9. 并发项目实战</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<ul>
-<li>高性能NIO框架<blockquote>
-<p>Netty应用</p>
-<p>Netty源码解读</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="架构核心服务层技术"><a href="#架构核心服务层技术" class="headerlink" title="架构核心服务层技术"></a>架构核心服务层技术</h3><ul>
-<li>服务的前世今生</li>
-<li>深入理解通讯协议<ul>
-<li>TCP</li>
-<li>UDP</li>
-<li>HTTP</li>
-</ul>
-</li>
-<li>基于分布式思想下的RPC解决方案</li>
-<li>Dubbo全解析<ul>
-<li>Dubbo简介及初入门</li>
-<li>Dubbo管理中心及监控系统安装部署</li>
-<li>领域驱动之如何正确划分Dubbo分布式服务</li>
-<li>Dubbo负载均衡机制探析</li>
-<li>如何完成Dubbo服务只订阅及只注册模式</li>
-<li>架构师必备技术之如何设计Dubbo服务接口</li>
-<li>Dubbo设计原理及源码分析</li>
-<li>Dubbo容错机制及高扩展性分析</li>
-<li>Dubbo服务与Docker虚拟化技术集成实战</li>
-</ul>
-</li>
-</ul>
-<h3 id="架构关键基础设施"><a href="#架构关键基础设施" class="headerlink" title="架构关键基础设施"></a>架构关键基础设施</h3><h4 id="分布式环境指挥官Zookeeper"><a href="#分布式环境指挥官Zookeeper" class="headerlink" title="分布式环境指挥官Zookeeper"></a>分布式环境指挥官Zookeeper</h4><ul>
-<li>Zookeeper基础<ul>
-<li>Zookeeper的入门<ul>
-<li>数据节点<ul>
-<li>会话</li>
-<li>节点属性</li>
-<li>节点类型</li>
-<li>版本</li>
-</ul>
-</li>
-<li>监听器机制</li>
-<li>安全权限</li>
-<li>单机部署</li>
-<li>Zookeeper的命令</li>
-</ul>
-</li>
-<li>Zookeeper开发基础<ul>
-<li>原生客户端</li>
-<li>zkclient</li>
-<li>curotor</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Zookeeper进阶<ul>
-<li>Zookeeper集群<ul>
-<li>Zookeeper集群部署安装</li>
-<li>客户端连接zk集群及管理</li>
-</ul>
-</li>
-<li>Zookeeper的注意事项</li>
-</ul>
-</li>
-<li>Zookeeper的使用举例<ul>
-<li>配置中心</li>
-<li>分布式锁</li>
-<li>集群选举</li>
-<li>命名服务</li>
-</ul>
-</li>
-</ul>
-<h4 id="分布式消息通讯异步与MQ"><a href="#分布式消息通讯异步与MQ" class="headerlink" title="分布式消息通讯异步与MQ"></a>分布式消息通讯异步与MQ</h4><ul>
-<li>ActiveMq<ul>
-<li>消息中间件(ActiveMq、RabbitMQ、Kafka)简介及对比</li>
-<li>软件下载、安装及部署</li>
-<li>P2P、PUB\SUB模型详解</li>
-<li>消息确认及重发机制</li>
-<li>企业级高可用集群部署方案</li>
-<li>ActiveMq基于Spring完成分布式消息队列实战</li>
-</ul>
-</li>
-<li>RabbitMq<ul>
-<li>RabbitMQ及高可用集群部署</li>
-<li>深入学习RabbitMQ消息分发机制及主要消息分发</li>
-<li>RabbitMQ消息路由机制分析</li>
-<li>RabbitMQ消息确认机制分析</li>
-<li>RabbitMQ机遇Spring完成分布式消息队列实战</li>
-<li>安装配置</li>
-<li>集群化与消息队列</li>
-</ul>
-</li>
-<li>kafka<ul>
-<li>基于Zookeeper搭建高可用集群实战</li>
-<li>Kafka消息处理过程解析</li>
-<li>基于Java语言实现Kafka生产者与消费者实战</li>
-<li>Kafka副本机制及选举原理窥探</li>
-<li>使用kafka实现日志实时上报统计分析实战</li>
-</ul>
-</li>
-</ul>
-<h4 id="分布式缓存NoSql"><a href="#分布式缓存NoSql" class="headerlink" title="分布式缓存NoSql"></a>分布式缓存NoSql</h4><ul>
-<li>Redis<ul>
-<li>Redis初入门及介绍</li>
-<li>Redis主从模式<ul>
-<li>一主一从</li>
-<li>一主多从</li>
-<li>树形主从</li>
-</ul>
-</li>
-<li>Redis常用命令及应用场景</li>
-<li>Redis客户端<ul>
-<li>Jedis</li>
-<li>Jedispool</li>
-<li>JedisCluster</li>
-<li>JedisCluster+SpringMVC整合</li>
-<li>手写Jedis实战</li>
-</ul>
-</li>
-<li>Redis持久化<ul>
-<li>RDB</li>
-<li>AOF</li>
-<li>数据恢复与转移实战</li>
-</ul>
-</li>
-<li>哨兵<ul>
-<li>选举原理</li>
-<li>主从下线</li>
-<li>客观下线</li>
-<li>Java与哨兵如何工作</li>
-<li>动手搭建Spring与Redis哨兵模式集成实战</li>
-</ul>
-</li>
-<li>高可用集群<ul>
-<li>槽的介绍</li>
-<li>键槽关系</li>
-<li>分布式存储</li>
-<li>重定向</li>
-<li>手把手搭建Redis高可用集群</li>
-<li>动态扩容、缩减集群节点实战 </li>
-</ul>
-</li>
-<li>原子性<ul>
-<li>Lua语言结合开发</li>
-<li>弱事务体现</li>
-<li>multi、watch、discard、exec</li>
-<li>Redis与Lua模拟抢红包实战</li>
-</ul>
-</li>
-<li>应用场景代码并发与设计分析实战<ul>
-<li>分布式锁实战</li>
-<li>Session共享实战</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>memcached<ul>
-<li>概述<ul>
-<li>MemeCached特点</li>
-<li>与Redis区别</li>
-<li>安装配置</li>
-</ul>
-</li>
-<li>并发基础<ul>
-<li>客户端命令</li>
-<li>Java客户端</li>
-<li>集群搭建</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>缓存并发专题<ul>
-<li>缓存雪崩</li>
-<li>缓存粒度控制</li>
-<li>缓存击穿</li>
-<li>缓存热点Key重建优化</li>
-<li>缓存同步</li>
-<li>Spring-Cache开发</li>
-</ul>
-</li>
-<li>MongoDB<ul>
-<li>mongodb入门<ul>
-<li>NoSql与sql使用场景分析</li>
-<li>基础概念<ul>
-<li>数据库</li>
-<li>集合</li>
-<li>索引</li>
-<li>文档</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>mongodb进阶<ul>
-<li>常用命令</li>
-<li>快速入门</li>
-<li>mongodb客户端驱动</li>
-<li>增删改查与聚合</li>
-<li>安全控制</li>
-</ul>
-</li>
-<li>mongodb高级知识<ul>
-<li>存储引擎</li>
-<li>索引</li>
-<li>高可用</li>
-</ul>
-</li>
-<li>最佳实践与注意事项</li>
-</ul>
-</li>
-</ul>
-<h4 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h4><ul>
-<li>Mysql<ul>
-<li>Mysql主从复制、读写分离高可用方案实战</li>
-<li>Mysql+Keepalived实现双主高可用方案实战</li>
-<li>Mysql实现分库分表高性能解决方案实战</li>
-</ul>
-</li>
-<li>Mycat<ul>
-<li>Mycat简介及用途</li>
-<li>基于Mycat实现Mysql读写分离实战</li>
-<li>基于Mycat实现数据库切分实战</li>
-<li>全局表、ER表、分片机制分析</li>
-</ul>
-</li>
-</ul>
-<h4 id="高并发分流技术Nginx"><a href="#高并发分流技术Nginx" class="headerlink" title="高并发分流技术Nginx"></a>高并发分流技术Nginx</h4><ul>
-<li>Nginx模块简介</li>
-<li>Nginx工作原理及安装配置</li>
-<li>Nginx常用命令管理及升级</li>
-<li>Nginx配置分拣精讲</li>
-<li>实战线上Nginx多站点配置</li>
-<li>Nginx配置优化及深入剖析</li>
-<li>Nginx Rewrite规则剖析</li>
-<li>Nginx日志分析及脚本编写</li>
-<li>Nginx日志切割案例讲解</li>
-<li>Nginx防盗链案例配置</li>
-<li>Nginx日常运维及故障解决</li>
-<li>Nginx构件安全HTTPS架构实践</li>
-<li>企业实战Nginx＋Tomcat动静分离架构实战</li>
-<li>Nginx＋Keepalived集群架构实战</li>
-<li>Nginx＋Keepalived双主架构案例实战</li>
-</ul>
-<h4 id="分布式文件存储fastdfs"><a href="#分布式文件存储fastdfs" class="headerlink" title="分布式文件存储fastdfs"></a>分布式文件存储fastdfs</h4><ul>
-<li>文件存储</li>
-<li>文件同步</li>
-<li>文件查阅</li>
-<li>分布式部署实战</li>
-</ul>
-<h3 id="分布式常见场景解决方案"><a href="#分布式常见场景解决方案" class="headerlink" title="分布式常见场景解决方案"></a>分布式常见场景解决方案</h3><ul>
-<li>分布式主键声称方案</li>
-<li>Session跨域共享实战</li>
-<li>分布式事务解决方案实战</li>
-<li>分布式锁解决方案实战</li>
-<li>分布式单点登录实战SSO</li>
-<li>分布式调度任务系统</li>
-<li>分布式配置中心</li>
-</ul>
-<h2 id="团队协作开发专题"><a href="#团队协作开发专题" class="headerlink" title="团队协作开发专题"></a>团队协作开发专题</h2><ul>
-<li>Git<ul>
-<li>Git基本工作原理<ul>
-<li>与svn对比</li>
-<li>基本运作流程</li>
-</ul>
-</li>
-<li>Git常用操作及问题处理<ul>
-<li>工程初始化及克隆</li>
-<li>文件提交</li>
-<li>分支与常用标签应用</li>
-<li>远程仓库管理</li>
-<li>合并与冲突解决</li>
-<li>架构师职责：Git Flow必备技能，规范团队Git操作</li>
-<li>架构师踩过的坑</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Maven</p>
-<ul>
-<li>Maven 重要指令(clean、complie、test、package、install、deploy)</li>
-<li><p>私服－Nexus</p>
-<ol>
-<li>Maven 重要指令(clean、complie、test、package、install、deploy)</li>
-<li>Nexus服务搭建</li>
-<li>Nexus仓库管理</li>
-<li>Nexus使用、上传、配置</li>
-</ol>
-</li>
-<li><p>Maven流行插件实践、手写自己的插件</p>
-</li>
-<li>架构师如何理解Scope\Lifecycle\Phase\Goal</li>
-</ul>
-</li>
-<li>Jenkins<ul>
-<li>Jenkins服务部署</li>
-<li>Jenkins持续集成</li>
-</ul>
-</li>
-<li>Sonar<ul>
-<li>静态代码检查，代码更健壮</li>
-<li>代码走查</li>
-</ul>
-</li>
-</ul>
-<h2 id="微服务专题"><a href="#微服务专题" class="headerlink" title="微服务专题"></a>微服务专题</h2><h3 id="SpringBoot"><a href="#SpringBoot" class="headerlink" title="SpringBoot"></a>SpringBoot</h3><ul>
-<li>SpringBoot与微服务的区别与联系</li>
-<li>快速构建SpringBoot工程</li>
-<li>SpringBoot核心组建start、 actuator等解析</li>
-<li>快速集成Mybatis实战</li>
-<li>快速集成Dubbo及案例实战</li>
-<li>快速集成redis及案例实战</li>
-<li>构建Swagger插件实现API管理及接口测试体系</li>
-</ul>
-<h3 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h3><ul>
-<li>Ribbon客户端负载均衡原理与算法详解，与服务器端敷在均衡的区别</li>
-<li>Feign声明式服务调用方式实现</li>
-<li>Hystrix服务熔断及服务障级实战</li>
-<li>Eureka注册中心构件级源码分析</li>
-<li>Config配置服务中心与svn、git快速集成</li>
-<li>Sleuth调用链路跟踪</li>
-<li>BUS消息总线技术</li>
-<li>Stream消息驱动的微服务</li>
-</ul>
-<h3 id="Docker虚拟化技术"><a href="#Docker虚拟化技术" class="headerlink" title="Docker虚拟化技术"></a>Docker虚拟化技术</h3><ul>
-<li>Docker介绍、安装与使用</li>
-<li>Docker组成<ul>
-<li>镜像</li>
-<li>容器</li>
-<li>私有仓库</li>
-</ul>
-</li>
-<li>Docker Compose部署脚本</li>
-<li>Docker Service服务编排</li>
-<li>Docker Redis 分布式集群部署</li>
-<li>Docker File 构建</li>
-<li>通过Maven插件打包Docker镜像</li>
-<li>Docker部署级运行应用程序</li>
-<li>Kubernetes编配</li>
-<li>基于Docker构建Mysql集群实战</li>
-<li>高可用SpringCloud微服务与Docker集成实现动态扩容实战</li>
-</ul>
-
-      
-
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">学习</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随想</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/笔记//" class="article-tag-list-link color3">笔记</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-      
 
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://github.com/chaseton/2018/07/31/准备学习的东西（二）/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2018/07/31/hexo博客整理（三）/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          hexo博客整理（三）
-        
-      </div>
-    </a>
   
   
-    <a href="/2018/07/30/准备学习的东西/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">准备学习的东西</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-        <div class="toc-container tooltip-left">
-            <i class="icon-font icon-category"></i>
-            <div class="tooltip tooltip-east">
-                <span class="tooltip-item">
-                </span>
-                <span class="tooltip-content">
-                    <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#下半年准备学习的东西（二）"><span class="toc-number">1.</span> <span class="toc-text">下半年准备学习的东西（二）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#性能调优专题"><span class="toc-number">1.1.</span> <span class="toc-text">性能调优专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#性能优化如何理解"><span class="toc-number">1.1.1.</span> <span class="toc-text">性能优化如何理解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JVM调优"><span class="toc-number">1.1.2.</span> <span class="toc-text">JVM调优</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JAVA程序性能优化"><span class="toc-number">1.1.3.</span> <span class="toc-text">JAVA程序性能优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tomcat"><span class="toc-number">1.1.4.</span> <span class="toc-text">Tomcat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mysql"><span class="toc-number">1.1.5.</span> <span class="toc-text">Mysql</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用框架源码分析"><span class="toc-number">1.2.</span> <span class="toc-text">常用框架源码分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring概述"><span class="toc-number">1.2.1.</span> <span class="toc-text">Spring概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring容器"><span class="toc-number">1.2.2.</span> <span class="toc-text">Spring容器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-AOP"><span class="toc-number">1.2.3.</span> <span class="toc-text">Spring AOP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-MVC"><span class="toc-number">1.2.4.</span> <span class="toc-text">Spring MVC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-5-新特性"><span class="toc-number">1.2.5.</span> <span class="toc-text">Spring 5 新特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mybatis"><span class="toc-number">1.2.6.</span> <span class="toc-text">Mybatis</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#互联网分布式架构专题"><span class="toc-number">1.3.</span> <span class="toc-text">互联网分布式架构专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#分布式架构思维"><span class="toc-number">1.3.1.</span> <span class="toc-text">分布式架构思维</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构开发基础"><span class="toc-number">1.3.2.</span> <span class="toc-text">架构开发基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构核心服务层技术"><span class="toc-number">1.3.3.</span> <span class="toc-text">架构核心服务层技术</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#架构关键基础设施"><span class="toc-number">1.3.4.</span> <span class="toc-text">架构关键基础设施</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式环境指挥官Zookeeper"><span class="toc-number">1.3.4.1.</span> <span class="toc-text">分布式环境指挥官Zookeeper</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式消息通讯异步与MQ"><span class="toc-number">1.3.4.2.</span> <span class="toc-text">分布式消息通讯异步与MQ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式缓存NoSql"><span class="toc-number">1.3.4.3.</span> <span class="toc-text">分布式缓存NoSql</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据存储"><span class="toc-number">1.3.4.4.</span> <span class="toc-text">数据存储</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#高并发分流技术Nginx"><span class="toc-number">1.3.4.5.</span> <span class="toc-text">高并发分流技术Nginx</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式文件存储fastdfs"><span class="toc-number">1.3.4.6.</span> <span class="toc-text">分布式文件存储fastdfs</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分布式常见场景解决方案"><span class="toc-number">1.3.5.</span> <span class="toc-text">分布式常见场景解决方案</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#团队协作开发专题"><span class="toc-number">1.4.</span> <span class="toc-text">团队协作开发专题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#微服务专题"><span class="toc-number">1.5.</span> <span class="toc-text">微服务专题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBoot"><span class="toc-number">1.5.1.</span> <span class="toc-text">SpringBoot</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringCloud"><span class="toc-number">1.5.2.</span> <span class="toc-text">SpringCloud</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Docker虚拟化技术"><span class="toc-number">1.5.3.</span> <span class="toc-text">Docker虚拟化技术</span></a></li></ol></li></ol></li></ol>
-                    </div>
-                </span>
-            </div>
-        </div>
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
-  <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
-<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-//  id: "http://github.com/chaseton/2018/07/31/准备学习的东西（二）/",
-  id: 'Tue Jul 31 2018 23:28:41 GMT+0800',
-  owner: 'chaseton',
-  repo: 'chaseton.github.io',
-  oauth: {
-    client_id: 'eaa1cd3dab066b1d56c3',
-    client_secret: '7279c50ffce6d1d98bdc1f7654016dbf6522aff2',
-  },
-})
-gitment.render('gitment-ctn')
-</script>
-
-  
+    
 
 
           </div>
@@ -921,10 +256,10 @@ gitment.render('gitment-ctn')
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
-		isCategory: false,
+		isCategory: true,
 		open_in_new: false,
 		toc_hide_index: true,
 		root: "/",
